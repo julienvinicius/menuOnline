@@ -1,0 +1,14 @@
+<!-- categoria.component.html -->
+<div>
+    <h2>{{ categoria.nome }}</h2>
+    <button (click)="voltar()">Voltar</button>
+    <ul>
+      <li *ngFor="let item of categoria.itens">
+        <a [routerLink]="'item/' + item.id">
+          <img [src]="item.imagem" alt="{{ item.nome }}" width="150" height="150">
+          <p>{{ item.nome }}</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+  

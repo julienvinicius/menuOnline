@@ -1,0 +1,8 @@
+<!-- item.component.html -->
+<div>
+    <h2>{{ item.nome }}</h2>
+    <img [src]="item.imagem" alt="{{ item.nome }}" width="300" height="200">
+    <p>Descrição: {{ item.descricao }}</p>
+    <p>Preço: {{ item.preco | currency }}</p>
+  </div>
+  

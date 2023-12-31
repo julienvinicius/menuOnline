@@ -1,0 +1,28 @@
+/* categoria.component.css */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  img {
+    width: 250px; /* Ajuste o tamanho conforme necessário */
+    height: 150px; /* Ajuste o tamanho conforme necessário */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  p {
+    text-align: center;
+  }
+  

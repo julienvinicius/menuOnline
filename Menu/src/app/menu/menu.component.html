@@ -1,0 +1,10 @@
+<!-- menu.component.html -->
+<div>
+    <h1>Cardápio Online</h1>
+    <ul>
+      <li *ngFor="let categoria of categorias">
+        <a [routerLink]="'categoria/' + categoria.id">{{ categoria.nome }}</a>
+      </li>
+    </ul>
+  </div>
+  

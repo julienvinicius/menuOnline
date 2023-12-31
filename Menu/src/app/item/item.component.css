@@ -1,0 +1,12 @@
+/* item.component.css */
+div {
+    text-align: center;
+  }
+  
+  img {
+    width: 400px; /* Ajuste o tamanho conforme necessário */
+    height: 300px; /* Ajuste o tamanho conforme necessário */
+    display: block;
+    margin: 0 auto;
+  }
+  
